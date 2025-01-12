@@ -1,0 +1,3 @@
+# Assembly Out-of-Bounds Memory Access Bug
+
+This repository demonstrates a common error in assembly programming: accessing memory outside the allocated address space. The code attempts to access memory using an index that isn't properly checked for bounds, leading to a segmentation fault or access violation. The `bug.asm` file contains the buggy code, while `bugSolution.asm` provides a corrected version with added bounds checking.
